@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import QuestionCard from './components/QuestionCard';
 import { QuestionState, Difficulty, fetchQuizQuestions } from './API';
 
-interface IAnswer {
+export interface IAnswer {
   question: string;
   answer: string;
   correct: boolean;
